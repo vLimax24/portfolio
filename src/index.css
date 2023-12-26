@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.typo {
+    font-family: 'SF Pro Display', sans-serif;
+}
+
+.typoRounded {
+    font-family: 'SF Pro Rounded', sans-serif;
+}
+
+@layer components {
+    .hero-container::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: radial-gradient(circle, #7ADED6, transparent);
+      mix-blend-mode: overlay;
+      filter: blur(20px); /* Adjust the blur as needed */
+      z-index: -1;
+    }
+}
+
+  .carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: #333;
+    transition: color 0.3s;
+  }
+  
+  .carousel-button:hover {
+    color: #007bff;
+  }
+  
+  .left {
+    left: 10px;
+  }
+  
+  .right {
+    right: 10px;
+  }
+
+  .darken-card {
+    filter: brightness(0.5); /* Adjust the brightness value to control darkness */
+  }
+
+  .fade-in {
+    opacity: 1;
+    transform: translateX(0);
+    transition: opacity 0.5s, transform 0.5s;
+  }
+  
+  .fade-out {
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: opacity 0.5s, transform 0.5s;
+  }
+
+  .darken {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the alpha (last value) to control darkness */
+    z-index: 99999;
+  }
