@@ -19,22 +19,22 @@ const Footer = () => {
           <h2 className="text-lg font-semibold mb-4">Quick Links</h2>
           <ul className="space-y-2">
             <li>
-              <a href="#" className="hover:text-gray-300 transition duration-300">
+              <a href="https://vLimax24.github.io/portfolio" className="hover:text-gray-300 transition duration-300">
                 Home
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-gray-300 transition duration-300">
-                Services
+              <a href="#projects" className="hover:text-gray-300 transition duration-300">
+                Projects
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-gray-300 transition duration-300">
+              <a href="#about" className="hover:text-gray-300 transition duration-300">
                 About Me
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-gray-300 transition duration-300">
+              <a href="#contact" className="hover:text-gray-300 transition duration-300">
                 Contact
               </a>
             </li>
@@ -69,7 +69,7 @@ const Footer = () => {
 
       {/* Bottom Bar */}
       <div className="mt-8 border-t border-gray-800 pt-4 text-center">
-        <p>&copy; {new Date().getFullYear()} Deglix Studios. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} Delgix Studios. All rights reserved.</p>
       </div>
     </footer>
   );

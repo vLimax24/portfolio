@@ -23,29 +23,29 @@ const Navbar = () => {
       <div className="justify-between max-h-[80px] hidden md:flex transition-all duration-500">
 
         <div className="flex items-center transition-all duration-500 ">
-            <ul className="flex items-end mr-4 transition-all duration-500">
+            <ul className="flex items-end mr-[6.5rem] transition-all duration-500">
             <li className="m-3 z-[99]">
-                <a href="#about" className="text-[1.2em] lg:text-[1.35em] xl:text-[1.45em] 2xl:text-[1.5em] text-primary font-normal navbarLink relative transition-all duration-500">
+                <a href="#about" className="text-[1.2em] lg:text-[1.35em] xl:text-[1.45em] 2xl:text-[1.5em] text-primary font-normal navbarLink relative transition-all duration-500 hover:text-secondary hover:scale-105">
                 ABOUT
                 </a>
             </li>
             <li className="m-3 z-[99]">
-                <a href="#projects" className="text-[1.2em] lg:text-[1.35em] xl:text-[1.45em] 2xl:text-[1.5em] text-primary font-normal navbarLink relative transition-all duration-500">
+                <a href="#projects" className="text-[1.2em] lg:text-[1.35em] xl:text-[1.45em] 2xl:text-[1.5em] text-primary font-normal navbarLink relative transition-all duration-500 hover:text-secondary hover:scale-105">
                 PROJECTS
                 </a>
             </li>
             <li className="m-3 z-[99]">
-                <a href="#contact" className="text-[1.2em] lg:text-[1.35em] xl:text-[1.45em] 2xl:text-[1.5em] text-primary font-normal navbarLink relative transition-all duration-500">
+                <a href="#contact" className="text-[1.2em] lg:text-[1.35em] xl:text-[1.45em] 2xl:text-[1.5em] text-primary font-normal navbarLink relative transition-all duration-500 hover:text-secondary hover:scale-105">
                 CONTACT
                 </a>
             </li>
             <li className="m-3 z-[99]">
-                <a href="https://github.com/vLimax24" className="text-[1.2em] lg:text-[1.35em] xl:text-[1.45em] 2xl:text-[1.5em] text-primary font-normal navbarLink relative transition-all duration-500">
+                <a href="https://github.com/vLimax24" className="text-[1.2em] lg:text-[1.35em] xl:text-[1.45em] 2xl:text-[1.5em] text-primary font-normal navbarLink relative transition-all duration-500 hover:text-secondary hover:scale-105">
                 GITHUB
                 </a>
             </li>
             <li className="m-3 z-[99]">
-                <a href="#" className="text-[1.2em] lg:text-[1.35em] xl:text-[1.45em] 2xl:text-[1.5em] text-primary font-normal navbarLink relative transition-all duration-500">
+                <a href="#" className="text-[1.2em] lg:text-[1.35em] xl:text-[1.45em] 2xl:text-[1.5em] text-primary font-normal navbarLink relative transition-all duration-500 hover:text-secondary hover:scale-105">
                 TECHSTACK
                 </a>
             </li>

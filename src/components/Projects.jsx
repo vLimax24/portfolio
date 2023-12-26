@@ -1,15 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import { useSpring, animated } from 'react-spring';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import imageOneHero from '../assets/heroPortfolio.png'
 
 
 const projectsData = [
   {
-    title: 'Project 1',
+    title: 'Portfolio Website',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    imageUrl: 'https://via.placeholder.com/400',
-    link: '#',
-    images: ['https://via.placeholder.com/400', 'https://via.placeholder.com/500', 'https://via.placeholder.com/600'],
+    imageUrl: imageOneHero,
+    link: 'https://vLimax24.github.io/portfolio',
+    images: [imageOneHero, 'https://via.placeholder.com/500', 'https://via.placeholder.com/600'],
     sourceCode: '#',
   },
   {
