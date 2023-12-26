@@ -9,6 +9,12 @@ const Navbar = () => {
     document.body.style.overflow = menuOpen ? 'auto' : 'hidden';
   };
 
+  const closeMenu = (event) => {
+    event.stopPropagation(); // Stop event propagation
+    setMenuOpen(false);
+    document.body.style.overflow = 'auto';
+  };
+
   return (
     <nav className="w-full typo z-[99] pt-5 mb-10 top-0 left-0 transition-all duration-500 flex items-center justify-between">
       <div className="scale-50">
@@ -69,25 +75,27 @@ const Navbar = () => {
           </button>
         </div>
         <ul className="flex flex-col items-end mr-4">
-          <li className="m-3 hover:scale-125 duration-300 transition-all origin-right">
-          <Scroll to="projects">Component 1</Scroll>
+        <li className="m-3 hover:scale-125 duration-300 transition-all origin-right" onClick={(event) => closeMenu(event)}>
+            <a href="#about" className="text-[3em] text-black font-black hover:scale-150 duration-300 transition-all">
+              ABOUT
+            </a>
           </li>
-          <li className="m-3 hover:scale-125 duration-300 transition-all origin-right">
+          <li className="m-3 hover:scale-125 duration-300 transition-all origin-right" onClick={(event) => closeMenu(event)}>
             <a href="#projects" className="text-[3em] text-black font-black hover:scale-150 duration-300 transition-all">
               PROJECTS
             </a>
           </li>
-          <li className="m-3 hover:scale-125 duration-300 transition-all origin-right">
-            <a href="#" className="text-[3em] text-black font-black hover:scale-150 duration-300 transition-all">
+          <li className="m-3 hover:scale-125 duration-300 transition-all origin-right" onClick={(event) => closeMenu(event)}>
+            <a href="#contact" className="text-[3em] text-black font-black hover:scale-150 duration-300 transition-all">
               CONTACT
             </a>
           </li>
-          <li className="m-3 hover:scale-125 duration-300 transition-all origin-right">
-            <a href="#" className="text-[3em] text-black font-black hover:scale-150 duration-300 transition-all">
+          <li className="m-3 hover:scale-125 duration-300 transition-all origin-right" onClick={(event) => closeMenu(event)}>
+            <a href="https://github.com/vlimax24" className="text-[3em] text-black font-black hover:scale-150 duration-300 transition-all">
               GITHUB
             </a>
           </li>
-          <li className="m-3 hover:scale-125 duration-300 transition-all origin-right">
+          <li className="m-3 hover:scale-125 duration-300 transition-all origin-right" onClick={(event) => closeMenu(event)}>
             <a href="#" className="text-[3em] text-black font-black hover:scale-150 duration-300 transition-all">
               TECHSTACK
             </a>
