@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Scroll from './Scroll'
+import logo from '../assets/logo2.svg'
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -18,7 +18,7 @@ const Navbar = () => {
   return (
     <nav className="w-full typo z-[99] pt-5 mb-10 top-0 left-0 transition-all duration-500 flex items-center justify-between">
       <div className="scale-50">
-        <img src="./src/assets/logo2.svg" alt="" draggable='false'/>
+        <img src={logo} alt="" draggable='false'/>
       </div>
       <div className="justify-between max-h-[80px] hidden md:flex transition-all duration-500">
 
