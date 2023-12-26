@@ -2,29 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+
 @font-face {
   font-family: 'SF Pro Display';
-  src: url('./fonts/SF-Pro-Display-Black.otf') format('otf'),
-  url('./fonts/SF-Pro-Display-Bold.otf') format('otf'),
-  url('./fonts/SF-Pro-Display-Semibold.otf') format('otf'),
-  url('./fonts/SF-Pro-Display-Medium.otf') format('otf'),
-  url('./fonts/SF-Pro-Display-Heavy.otf') format('otf'),
-  url('./fonts/SF-Pro-Display-Light.otf') format('otf'),
-  url('./fonts/SF-Pro-Display-Thin.otf') format('otf'),
-  url('./fonts/SF-Pro-Display-Regular.otf') format('otf'),
-       
-  /* Add other font properties if needed */
+  src: url('./assets/SF-Pro-Display-Regular.otf') format('opentype');
 }
 
 @font-face {
   font-family: 'SF Pro Rounded';
-  src: url('./fonts/SF-Pro-Rounded-Black.otf') format('otf'),
-  url('./fonts/SF-Pro-Rounded-Bold.otf') format('otf'),
-  url('./fonts/SF-Pro-Rounded-Heavy.otf') format('otf'),
-  url('./fonts/SF-Pro-Rounded-Semibold.otf') format('otf'),
-  url('./fonts/SF-Pro-Rounded-Regular.otf') format('otf'),
-  url('./fonts/SF-Pro-Rounded-Medium.otf') format('otf'),
-  url('./fonts/SF-Pro-Rounded-Light.otf') format('otf'),;
+  src: url('./assets/SF-Pro-Rounded-Black.otf') format('opentype');
   /* Add other font properties if needed */
 }
 
