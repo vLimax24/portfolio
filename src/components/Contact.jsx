@@ -15,9 +15,9 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    const serviceId = 'service_a2whisi';
-    const templateId = 'template_299syog';
-    const userId = 'Sd7wWWvcrFX0MViOl';
+    const serviceId = 'service_oq0gznr';
+    const templateId = 'template_mc8s3xt';
+    const userId = 'rQgdoS5R2eBQyuoAb';
 
     emailjs.send(serviceId, templateId, formData, userId)
       .then((response) => {
