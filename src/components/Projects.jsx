@@ -2,20 +2,22 @@ import React, { useState, useEffect } from 'react';
 import { useSpring, animated } from 'react-spring';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import imageOneHero from '../assets/heroPortfolio.png'
+import project1 from '../assets/Project1.png'
+import project12 from '../assets/Project1-2.png'
 
 
 const projectsData = [
   {
     title: 'Portfolio Website',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    description: 'My newest Version of my portfolio built with React and Tailwindcss',
     imageUrl: imageOneHero,
     link: 'https://vLimax24.github.io/portfolio',
-    images: [imageOneHero, 'https://via.placeholder.com/500', 'https://via.placeholder.com/600'],
+    images: [imageOneHero, project1, project12],
     sourceCode: '#',
   },
   {
     title: 'Project 1',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    description: 'My newest Version of my portfolio built with React and Tailwindcss',
     imageUrl: 'https://via.placeholder.com/400',
     link: '#',
     images: ['https://via.placeholder.com/400', 'https://via.placeholder.com/400', 'https://via.placeholder.com/400'],
@@ -23,7 +25,7 @@ const projectsData = [
   },
   {
     title: 'Project 1',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    description: 'My newest Version of my portfolio built with React and Tailwindcss',
     imageUrl: 'https://via.placeholder.com/400',
     link: '#',
     images: ['https://via.placeholder.com/400', 'https://via.placeholder.com/400', 'https://via.placeholder.com/400'],
@@ -31,7 +33,7 @@ const projectsData = [
   },
   {
     title: 'Project 1',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    description: 'My newest Version of my portfolio built with React and Tailwindcss',
     imageUrl: 'https://via.placeholder.com/400',
     link: '#',
     images: ['https://via.placeholder.com/400', 'https://via.placeholder.com/400', 'https://via.placeholder.com/400'],
@@ -39,7 +41,7 @@ const projectsData = [
   },
   {
     title: 'Project 1',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    description: 'My newest Version of my portfolio built with React and Tailwindcss',
     imageUrl: 'https://via.placeholder.com/400',
     link: '#',
     images: ['https://via.placeholder.com/400', 'https://via.placeholder.com/400', 'https://via.placeholder.com/400'],
@@ -47,7 +49,7 @@ const projectsData = [
   },
   {
     title: 'Project 1',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    description: 'My newest Version of my portfolio built with React and Tailwindcss',
     imageUrl: 'https://via.placeholder.com/400',
     link: '#',
     images: ['https://via.placeholder.com/400', 'https://via.placeholder.com/400', 'https://via.placeholder.com/400'],

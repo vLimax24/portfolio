@@ -45,7 +45,7 @@ const Footer = () => {
         <div className="w-full md:w-1/4 ml-5 mt-5">
           <h2 className="text-lg font-semibold mb-4">Connect With Us</h2>
           <div className="flex space-x-4">
-            <a href="#" className="text-xl hover:text-gray-300 transition duration-300">
+            <a href="" className="text-xl hover:text-gray-300 transition duration-300">
               <img src={discord} alt="" className='w-10 h-7'/>
             </a>
             <a href="#" className="text-xl hover:text-gray-300 transition duration-300">
