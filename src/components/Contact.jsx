@@ -15,7 +15,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    const serviceId = 'service_yt0fpha';
+    const serviceId = 'service_a2whisi';
     const templateId = 'template_299syog';
     const userId = 'Sd7wWWvcrFX0MViOl';
 
