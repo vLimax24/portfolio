@@ -4,15 +4,57 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import imageOneHero from '../assets/heroPortfolio.png'
 import project1 from '../assets/Project1.png'
 import project12 from '../assets/Project1-2.png'
+import development from '../assets/development.png'
 
 
 const projectsData = [
   {
-    title: 'Portfolio Website',
-    description: 'our newest Version of my portfolio built with React and Tailwindcss',
+    title: 'DelgixStudios Portfolio',
+    description: 'our newest Version of our landing page built with React and Tailwindcss',
     imageUrl: imageOneHero,
     link: 'https://vLimax24.github.io/portfolio',
     images: [imageOneHero, project1, project12],
+    sourceCode: '#',
+  },
+  {
+    title: 'ZoomClip',
+    description: 'the best and most efficient URL Shortener out there. Quick way to make a long link very short',
+    imageUrl: development,
+    link: 'https://vLimax24.github.io/portfolio',
+    images: [development, development, development],
+    sourceCode: '#',
+  },
+  {
+    title: 'UrbanTreadz',
+    description: 'Modern and Sleek e-commerce store for every shoe you can imagine.',
+    imageUrl: development,
+    link: 'https://vLimax24.github.io/portfolio',
+    images: [development, development, development],
+    sourceCode: '#',
+  },
+  {
+    title: 'Delgix Blog',
+    description: 'Our very own blog site, where we post frequently about tech, our lifes and different things',
+    imageUrl: development,
+    link: 'https://vLimax24.github.io/portfolio',
+    images: [development, development, development],
+    sourceCode: '#',
+  },
+
+  {
+    title: 'Charity Flow',
+    description: 'A modern charity website to collect money for different persons or other things',
+    imageUrl: development,
+    link: 'https://vLimax24.github.io/portfolio',
+    images: [development, development, development],
+    sourceCode: '#',
+  },
+  {
+    title: 'AutoPulse',
+    description: 'A creative and modern landing page for a car brand to showcase their newest inventions',
+    imageUrl: development,
+    link: 'https://vLimax24.github.io/portfolio',
+    images: [development, development, development],
     sourceCode: '#',
   },
 ];
