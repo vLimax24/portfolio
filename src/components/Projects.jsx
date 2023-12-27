@@ -15,46 +15,6 @@ const projectsData = [
     images: [imageOneHero, project1, project12],
     sourceCode: '#',
   },
-  {
-    title: 'Project 1',
-    description: 'My newest Version of my portfolio built with React and Tailwindcss',
-    imageUrl: 'https://via.placeholder.com/400',
-    link: '#',
-    images: ['https://via.placeholder.com/400', 'https://via.placeholder.com/400', 'https://via.placeholder.com/400'],
-    sourceCode: '#',
-  },
-  {
-    title: 'Project 1',
-    description: 'My newest Version of my portfolio built with React and Tailwindcss',
-    imageUrl: 'https://via.placeholder.com/400',
-    link: '#',
-    images: ['https://via.placeholder.com/400', 'https://via.placeholder.com/400', 'https://via.placeholder.com/400'],
-    sourceCode: '#',
-  },
-  {
-    title: 'Project 1',
-    description: 'My newest Version of my portfolio built with React and Tailwindcss',
-    imageUrl: 'https://via.placeholder.com/400',
-    link: '#',
-    images: ['https://via.placeholder.com/400', 'https://via.placeholder.com/400', 'https://via.placeholder.com/400'],
-    sourceCode: '#',
-  },
-  {
-    title: 'Project 1',
-    description: 'My newest Version of my portfolio built with React and Tailwindcss',
-    imageUrl: 'https://via.placeholder.com/400',
-    link: '#',
-    images: ['https://via.placeholder.com/400', 'https://via.placeholder.com/400', 'https://via.placeholder.com/400'],
-    sourceCode: '#',
-  },
-  {
-    title: 'Project 1',
-    description: 'My newest Version of my portfolio built with React and Tailwindcss',
-    imageUrl: 'https://via.placeholder.com/400',
-    link: '#',
-    images: ['https://via.placeholder.com/400', 'https://via.placeholder.com/400', 'https://via.placeholder.com/400'],
-    sourceCode: '#',
-  },
 ];
 
 const ProjectSidebar = ({ project, onClose }) => {
