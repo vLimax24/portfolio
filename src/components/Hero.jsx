@@ -30,8 +30,8 @@ const Hero = () => {
         <p className='typoRounded text-secondary font-black'>Available for Hire!</p>
       </div>
 
-      <h1 className='text-primary text-[50px] md:text-[70px] lg:text-[140px] typoRounded mb-[-20px] md:mb-[-35px] lg:mb-[-70px] animate__animated animate__fadeInUp font-black'>LINAS GIERGA</h1>
-      <h2 className='text-secondary text-[35px] md:text-[55px] lg:text-[90px] typoRounded animate__animated animate__fadeInUp mb-5 font-black'>Frontend Developer</h2>
+      <h1 className='text-primary text-[50px] md:text-[70px] lg:text-[140px] typoRounded mb-[-20px] md:mb-[-35px] lg:mb-[-70px] animate__animated animate__fadeInUp font-black'>DELGIX STUDIOS</h1>
+      <h2 className='text-secondary text-[35px] md:text-[55px] lg:text-[90px] typoRounded animate__animated animate__fadeInUp mb-5 font-black'>FULLSTACK DEVELOPERS</h2>
 
       {/* Fade-up "Hire Me" button */}
       <animated.button
@@ -39,7 +39,7 @@ const Hero = () => {
         className='hover:scale-125 mt-4 bg-[#68A3BB] text-primary py-2 md:px-8 md:py-4 md:text-[40px] typoRounded  font-black px-6 rounded-full md:scale-[1.1l] border-none focus:outline-none transition-all duration-500'
       >
         <a href="#contact">
-          Hire Me!
+          Hire Us!
         </a>
       </animated.button>
     </div>

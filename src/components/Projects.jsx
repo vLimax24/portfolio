@@ -9,7 +9,7 @@ import project12 from '../assets/Project1-2.png'
 const projectsData = [
   {
     title: 'Portfolio Website',
-    description: 'My newest Version of my portfolio built with React and Tailwindcss',
+    description: 'our newest Version of my portfolio built with React and Tailwindcss',
     imageUrl: imageOneHero,
     link: 'https://vLimax24.github.io/portfolio',
     images: [imageOneHero, project1, project12],

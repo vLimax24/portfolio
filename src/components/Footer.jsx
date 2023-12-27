@@ -62,8 +62,8 @@ const Footer = () => {
 
         {/* Contact Information */}
         <div className="w-full md:w-1/4 ml-5 mt-5">
-          <h2 className="text-lg font-semibold mb-4">Contact Me</h2>
-          <p>Email: linas.gierga@gmail.com</p>
+          <h2 className="text-lg font-semibold mb-4">Contact Us</h2>
+          <p>Email: delgixstudios@gmail.com</p>
         </div>
       </div>
 

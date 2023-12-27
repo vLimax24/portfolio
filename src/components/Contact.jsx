@@ -37,8 +37,8 @@ const Contact = () => {
 
   return (
     <div className="container mx-auto p-4 mt-20 mb-20 flex flex-col items-center justify-center md:scale-[1.2]" id='contact'>
-      <h2 className="text-2xl font-bold mb-4 text-primary typoRounded">Want to get in touch with me?</h2>
-      <h3 className="text-primary text-xl text-center typoRounded mt-[-20px] mb-5">Hit me up with a message!</h3>
+      <h2 className="text-2xl font-bold mb-4 text-primary typoRounded">Want to get in touch with us to turn your vision into reality or just have a quesion?</h2>
+      <h3 className="text-primary text-xl text-center typoRounded mt-[-20px] mb-5">Then hit us up with a message!</h3>
       <form onSubmit={handleSubmit} className="max-w-md">
         <div className="mb-4">
           <label htmlFor="name" className="block text-primary mb-2">Name:</label>
